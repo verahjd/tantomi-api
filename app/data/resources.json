@@ -1,0 +1,274 @@
+[
+  {
+    "id": "python-001",
+    "topic": "Python",
+    "title": "Beginner's Guide to Python",
+    "url": "https://wiki.python.org/moin/BeginnersGuide",
+    "description": "An official Python wiki page providing beginner-friendly guidance, resources, and links for learning Python.",
+    "level": "beginner"
+  },
+  {
+    "id": "python-002",
+    "topic": "Python",
+    "title": "Python Crash Course",
+    "url": "https://github.com/ehmatthes/pcc_3e/",
+    "description": "A friendly, relaxed programming book for beginners learning Python from scratch.",
+    "level": "beginner"
+  },
+  {
+    "id": "python-003",
+    "topic": "Python",
+    "title": "Practical Python Programming",
+    "url": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html",
+    "description": "Covers foundational aspects of Python programming with emphasis on script writing, data manipulation, and program organization.",
+    "level": "intermediate"
+  },
+  {
+    "id": "python-004",
+    "topic": "Python",
+    "title": "Intro to Advanced Python",
+    "url": "https://python-course.eu/advanced-python/",
+    "description": "A free online tutorial site offering advanced Python lessons and topics for learners with prior programming experience.",
+    "level": "advanced"
+  },
+  {
+    "id": "machine-learning-001",
+    "topic": "Machine Learning",
+    "title": "Intro to Machine Learning",
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "description": "Learn the core ideas in machine learning, and build your first models.",
+    "level": "beginner"
+  },
+  {
+    "id": "machine-learning-002",
+    "topic": "Machine Learning",
+    "title": "Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "description": "Google's fast-paced, practical introduction to machine learning featuring animated videos, interactive visualizations, and hands-on practice exercises.",
+    "level": "intermediate"
+  },
+  {
+    "id": "machine-learning-003",
+    "topic": "Machine Learning",
+    "title": "Introduction to Machine Learning for Coders",
+    "url": "https://www.fast.ai/posts/2018-09-26-ml-launch.html",
+    "description": "A free, code-focused machine learning course by Jeremy Howard that teaches practical ML concepts and models using modern Python tools.",
+    "level": "advanced"
+  },
+  {
+    "id": "data-analytics-001",
+    "topic": "Data Analytics",
+    "title": "Pandas",
+    "url": "https://www.kaggle.com/learn/pandas",
+    "description": "Solve short hands-on challenges to perfect your data manipulation skills.",
+    "level": "beginner"
+  },
+  {
+    "id": "data-analytics-002",
+    "topic": "Data Analytics",
+    "title": "The SQL Tutorial for Data Analytics",
+    "url": "https://mode.com/sql-tutorial/introduction-to-sql",
+    "description": "Designed for people who want to answer questions with data, covering SQL for accessing, cleaning, and analyzing data stored in databases.",
+    "level": "intermediate"
+  },
+  {
+    "id": "data-analytics-003",
+    "topic": "Data Analytics",
+    "title": "What is Advanced Analytics?",
+    "url": "https://aws.amazon.com/what-is/advanced-analytics/",
+    "description": "Explanation of advanced analytics, its techniques, use cases, and how organizations use data, AI, and machine learning to make better decisions.",
+    "level": "advanced"
+  },
+  {
+    "id": "web-development-001",
+    "topic": "Web Development",
+    "title": "Web Development Fundamentals",
+    "url": "https://code-and-cozy.medium.com/web-development-fundamentals-a-guide-for-beginners-and-intermediate-developers-cc24c9d5ada7",
+    "description": "A structured roadmap and key fundamentals for learning front-end web development, from basics like HTML, CSS, and JavaScript to more advanced tools like React.",
+    "level": "beginner"
+  },
+  {
+    "id": "web-development-002",
+    "topic": "Web Development",
+    "title": "The Odin Project",
+    "url": "https://www.theodinproject.com/",
+    "description": "A full stack web development curriculum with the best resources to supplement learning, presented in a logical order.",
+    "level": "intermediate"
+  },
+  {
+    "id": "web-development-003",
+    "topic": "Web Development",
+    "title": "Learn Web Development",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "description": "A structured set of tutorials teaching the essential skills and practices for being a successful front-end developer, with challenges and further recommended resources.",
+    "level": "advanced"
+  },
+  {
+    "id": "react-001",
+    "topic": "React",
+    "title": "Most Introductory React Blog Ever",
+    "url": "https://dev.to/ritvikdubey27/most-introductory-react-blog-ever-5ei9",
+    "description": "An introductory React blog built for beginners covering the basics of React.",
+    "level": "beginner"
+  },
+  {
+    "id": "react-002",
+    "topic": "React",
+    "title": "React Official Documentation",
+    "url": "https://react.dev/",
+    "description": "The official React documentation covering all core concepts, hooks, and patterns.",
+    "level": "intermediate"
+  },
+  {
+    "id": "react-003",
+    "topic": "React",
+    "title": "Advanced React Concepts",
+    "url": "https://reactresources.com/topics/advanced-concepts",
+    "description": "A collection of advanced React concepts and resources for experienced React developers.",
+    "level": "advanced"
+  },
+  {
+    "id": "javascript-001",
+    "topic": "JavaScript",
+    "title": "JavaScript Introduction",
+    "url": "https://www.w3schools.com/js/js_intro.asp",
+    "description": "A beginner-friendly tutorial page explaining what JavaScript is and how it can be used to manipulate web pages and interact with HTML and CSS.",
+    "level": "beginner"
+  },
+  {
+    "id": "javascript-002",
+    "topic": "JavaScript",
+    "title": "The Modern JavaScript Tutorial",
+    "url": "https://javascript.info/",
+    "description": "How it's done now — from the basics to advanced topics with simple but detailed explanations.",
+    "level": "intermediate"
+  },
+  {
+    "id": "javascript-003",
+    "topic": "JavaScript",
+    "title": "Advanced JavaScript Concepts",
+    "url": "https://blog.bitsrc.io/advanced-javascript-aspect-that-helped-me-get-better-at-coding-8d5c794e4392",
+    "description": "A blog post highlighting useful advanced JavaScript concepts and techniques that improve coding efficiency and help developers write cleaner, more reliable code.",
+    "level": "advanced"
+  },
+  {
+    "id": "firebase-001",
+    "topic": "Firebase",
+    "title": "Introduction to Firebase",
+    "url": "https://medium.com/@gautammanak1/introduction-to-firebase-649e6b7c62bc",
+    "description": "A beginner-friendly article explaining what Firebase is, its core services, and how it helps developers build, manage, and scale web and mobile app backends.",
+    "level": "beginner"
+  },
+  {
+    "id": "firebase-002",
+    "topic": "Firebase",
+    "title": "Firebase Documentation",
+    "url": "https://firebase.google.com/docs/guides",
+    "description": "Official Firebase documentation introducing fundamentals and guiding developers on setting up projects, integrating services, and following best practices.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cybersecurity-001",
+    "topic": "Cybersecurity",
+    "title": "What Is Cybersecurity? An Introduction",
+    "url": "https://www.park.edu/blog/what-is-cybersecurity-an-introduction/",
+    "description": "A university blog post explaining what cybersecurity is, why it is important, common cyber threats, key security areas, tools used, and career opportunities in the field.",
+    "level": "beginner"
+  },
+  {
+    "id": "cybersecurity-002",
+    "topic": "Cybersecurity",
+    "title": "What is Cybersecurity?",
+    "url": "https://aws.amazon.com/what-is/cybersecurity/",
+    "description": "An overview of cybersecurity defining its core principles, common digital threats like malware and phishing, and strategic implementation of security across infrastructure, networks, and cloud environments.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cloud-computing-001",
+    "topic": "Cloud Computing",
+    "title": "Introduction to Cloud Computing",
+    "url": "https://medium.com/devops-playbook/introduction-to-cloud-computing-b3056617d34d",
+    "description": "An introduction to cloud computing outlining its core features like scalability and pay-as-you-go pricing, while detailing the fundamental service models of IaaS, PaaS, and SaaS.",
+    "level": "beginner"
+  },
+  {
+    "id": "cloud-computing-002",
+    "topic": "Cloud Computing",
+    "title": "What is Cloud Computing?",
+    "url": "https://aws.amazon.com/what-is-cloud-computing/",
+    "description": "An overview of cloud computing defining the technology's on-demand nature, highlighting core benefits like elasticity and cost savings, and explaining service models and practical AWS applications.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ai-engineering-001",
+    "topic": "AI Engineering",
+    "title": "AI Engineering Roadmap for Beginners",
+    "url": "https://guidely.tech/blog/ai-engineering-roadmap",
+    "description": "An AI engineering roadmap for beginners defining the role of an AI engineer and outlining a five-phase journey from foundational math and Python to advanced LLM applications.",
+    "level": "beginner"
+  },
+  {
+    "id": "ai-engineering-002",
+    "topic": "AI Engineering",
+    "title": "Introduction to AI Engineering",
+    "url": "https://ml-architects.ch/blog_posts/introduction_to_ai_engineering.html",
+    "description": "An introduction to AI engineering defining it as the practical integration of foundation models into scalable, production-ready systems through data pipelines, autonomous agents, and robust monitoring.",
+    "level": "intermediate"
+  },
+  {
+    "id": "blockchain-001",
+    "topic": "Blockchain",
+    "title": "What is Blockchain?",
+    "url": "https://www.ibm.com/think/topics/blockchain",
+    "description": "An overview of blockchain technology defining it as an immutable digital ledger and exploring its diverse enterprise applications from supply chain transparency to decentralized networks.",
+    "level": "beginner"
+  },
+  {
+    "id": "blockchain-002",
+    "topic": "Blockchain",
+    "title": "CryptoZombies",
+    "url": "https://cryptozombies.io",
+    "description": "An interactive school that teaches blockchain development by having you build your own crypto-collectibles game using smart contracts.",
+    "level": "intermediate"
+  },
+  {
+    "id": "design-thinking-001",
+    "topic": "Design Thinking",
+    "title": "What is Design Thinking and Why Is It Beneficial",
+    "url": "https://www.ideou.com/blogs/inspiration/what-is-design-thinking",
+    "description": "A comprehensive guide to design thinking defining it as a human-centered innovation methodology and detailing its seven iterative phases from framing a question to sharing the story.",
+    "level": "beginner"
+  },
+  {
+    "id": "design-thinking-002",
+    "topic": "Design Thinking",
+    "title": "Intro to Design Thinking for Developers and Beginners",
+    "url": "https://blog.teamtreehouse.com/intro-to-design-thinking-for-beginners",
+    "description": "An introductory guide to design thinking for beginners and developers breaking the methodology into five stages and explaining how it helps tech teams build more intuitive digital products.",
+    "level": "intermediate"
+  },
+  {
+    "id": "app-development-001",
+    "topic": "App Development",
+    "title": "React Native Getting Started",
+    "url": "https://reactnative.dev/docs/getting-started",
+    "description": "The official React Native getting started guide for building mobile applications using JavaScript and React.",
+    "level": "beginner"
+  },
+  {
+    "id": "app-development-002",
+    "topic": "App Development",
+    "title": "Expo Tutorial",
+    "url": "https://docs.expo.dev/tutorial/introduction/",
+    "description": "An official Expo tutorial walking you through building your first cross-platform mobile app step by step.",
+    "level": "intermediate"
+  },
+  {
+    "id": "app-development-003",
+    "topic": "App Development",
+    "title": "React Native Performance",
+    "url": "https://reactnative.dev/docs/performance",
+    "description": "Official React Native documentation covering performance optimization techniques for production-ready mobile applications.",
+    "level": "advanced"
+  }
+]

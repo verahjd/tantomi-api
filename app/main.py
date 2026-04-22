@@ -1,0 +1,40 @@
+from fastapi import FastAPI, UploadFile, File
+from app.services.parser import extract_text_from_pdf
+from app.services.extractor import extract_skills
+from app.models import MatchScoreInput, RecommendationInput
+from app.services.scorer import calculate_match_score as compute_match_score
+from app.services.recommender import recommend_resources
+from app.services.knowledge_base import build_knowledge_base
+from contextlib import asynccontextmanager
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    build_knowledge_base()
+    yield
+
+app = FastAPI(lifespan=lifespan)  
+
+@app.post("/parse-resume")
+async def parse_resume(file: UploadFile):
+    contents = await file.read()
+    text = extract_text_from_pdf(contents)
+    skills = extract_skills(text)
+    return skills
+
+@app.post("/calculate-match-score")
+async def calculate_match_score(data: MatchScoreInput):
+    result = compute_match_score(data)
+    return result
+
+@app.post("/recommendations")
+async def recommendations(data: RecommendationInput):
+    result = recommend_resources(
+        missing_topics=data.missing_topics,
+        event_title=data.event_title,
+        event_level=data.event_level
+    )
+    return result
+
+
+
