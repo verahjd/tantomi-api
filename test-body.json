@@ -1,0 +1,5 @@
+{
+  "user_skills": ["Python"],
+  "user_skill_levels": { "Python": "advanced" },
+  "event_topics": ["Python", "Machine Learning"]
+}
