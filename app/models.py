@@ -1,9 +1,15 @@
 from pydantic import BaseModel, Field
 from typing import List, Dict
 
+class SkillItem(BaseModel):
+    name: str = Field(..., description='Name of the skill')
+    level: str = Field(..., description='Proficiency level: beginner, intermediate, or advanced')
+
 class ResumeSkills(BaseModel):
-    skills: List[str] = Field(..., description='List of skills extracted from the resume')
-    skill_levels: Dict[str, str] = Field(...,description='Dictionary mapping each skill to its proficiency level: beginner, intermediate, advanced')
+    skills: List[SkillItem] = Field(
+        default_factory=list,
+        description='List of skills extracted from the resume, each with a name and proficiency level'
+    )
 
 class MatchScoreInput(BaseModel):
     user_skills: List[str] = Field(..., description='List of user skills')
