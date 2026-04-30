@@ -33,8 +33,8 @@ def recommend_resources(
                 all_resources.append(ResourceItem(
                     title=result["title"],
                     url=result["url"],
-                    topic=result["topic"],
-                    level=result["level"],
+                    resource_topic=result["topic"],
+                    resource_level=result["level"],
                     description=result["description"]
                 ))
         else:
@@ -44,8 +44,8 @@ def recommend_resources(
                 all_resources.append(ResourceItem(
                     title=result["title"],
                     url=result["url"],
-                    topic=topic,
-                    level=event_level,
+                    resource_topic=topic,
+                    resource_level=event_level,
                     description=result["content"]
                 ))
     all_resources = all_resources[:3]
