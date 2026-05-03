@@ -8,6 +8,8 @@ from app.services.recommender import recommend_resources
 from app.services.knowledge_base import build_knowledge_base
 from app.auth import verify_api_key
 from contextlib import asynccontextmanager
+from app.services.chat import generate_chat_response
+from app.models import MatchScoreInput, RecommendationInput, ChatInput
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -47,4 +49,9 @@ async def recommendations(data: RecommendationInput):
         event_title=data.event_title,
         event_level=data.event_level
     )
+    return result
+
+@app.post("/chat", dependencies=[Depends(verify_api_key)])
+async def chat(data: ChatInput):
+    result = generate_chat_response(data)
     return result

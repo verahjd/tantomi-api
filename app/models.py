@@ -36,3 +36,15 @@ class RecommendationInput(BaseModel):
 class RecommendationOutput(BaseModel):
     briefing: str = Field(..., description='Briefing on the event topics')
     resources: List[ResourceItem] = Field(..., description='List of recommended resources to improve skills on the missing topics')  
+
+class ChatInput(BaseModel):
+    event_title: str = Field(..., description='Title of the event being recapped')
+    event_topics: List[str] = Field(..., description='List of topics covered by the event')
+    user_input: str = Field(..., description='User raw reflection text or concatenated guided question answers')
+
+class ChatOutput(BaseModel):
+    summary: str = Field(..., description='Coherent summary of what the user learned, written in second person')
+    skills_gained: List[SkillItem] = Field(
+        default_factory=list,
+        description='List of skills the user demonstrated learning, each with name and inferred proficiency level'
+    )
